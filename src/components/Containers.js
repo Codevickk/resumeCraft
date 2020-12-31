@@ -4,10 +4,10 @@ import breakpoints from '../breakpoints';
 export const Wrapper = styled.main`
 	background: ${(props) => props.theme.gray.lightest};
 	min-height: 100vh;
-	padding: 20px 10px;
+	padding: 100px 10px;
 
 	@media only screen and ${breakpoints.device.tablet} {
-		padding: 80px 0px;
+		padding: 100px 0px;
 	}
 `;
 
@@ -20,13 +20,20 @@ export const InnerWrapper = styled.div`
 	min-height: 560px;
 	width: 100%;
 	padding: 35px 20px;
+	position: relative;
 
 	@media only screen and ${breakpoints.device.tablet} {
-		padding: 50px 40px;
+		padding: 60px 40px;
 		width: 600px;
+	
 	}
 	@media only screen and ${breakpoints.device.laptop} {
-		padding: 50px 50px;
-		width: 946px;
+		padding: 60px 50px;
+		width: ${props => {
+			if(props.size ==="medium") {
+				return "754px";
+			}
+			return "946px"
+		}}
 	}
 `;

@@ -15,7 +15,7 @@ const theme = {
 		normal: '#8E8E95',
 		dark: '#6A6A70',
 		darker: '#46464B',
-		darkes: '#232325'
+		darkest: '#343234'
 	}
 };
 

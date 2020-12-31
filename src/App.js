@@ -5,13 +5,15 @@ import theme from './theme';
 
 // Components
 import Home from './components/Home';
+import CreateResume from './components/createResume';
 
 const App = () => {
 	return (
 		<ThemeProvider theme={theme}>
 			<Router>
 				<Switch>
-					<Route path="/" component={Home} />
+					<Route path="/create" component={CreateResume} />
+					<Route exact path="/" component={Home} />
 				</Switch>
 			</Router>
 		</ThemeProvider>
