@@ -7,6 +7,13 @@ export const H1 = styled.h1`
 	font-weight: bold;
 `;
 
+export const H2 = styled.h2`
+	font-size: 24px;
+	color: ${(props) => props.theme.gray.darkest};
+	letter-spacing: -0.04em;
+	font-weight: bold;
+`;
+
 export const P = styled.p`
 	font-size: 18px;
 	color: ${(props) => props.theme.gray.normal};

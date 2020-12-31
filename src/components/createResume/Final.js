@@ -10,6 +10,8 @@ const Final = (props) => {
 			state: {props.state.state} <br />
 			email: {props.state.email} <br />
 			website: {props.state.website} <br />
+			skills: {(props.state.skills || []).map((skill) => `${skill} `)}
+			experiences: {(props.state.experiences || []).map((experience) => console.log(experience))}
 		</div>
 	);
 };

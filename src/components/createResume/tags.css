@@ -1,0 +1,51 @@
+.react-tag-input {
+	border: 2px solid #d5d5d5;
+	padding: 12px 10px;
+	font-size: 16px;
+}
+
+/*
+.react-tag-input__input {
+    padding: 20px 10px;
+	font-size: 18px;
+	border: 2px solid #D5D5D5;
+	border-radius: 3px;
+	display: block;
+	width: 100%;
+	font-weight: 500;
+	letter-spacing: -0.02em;
+
+} 
+*/
+
+.react-tag-input__input::placeholder {
+	color: #bbbbbb;
+}
+
+/*
+.react-tag-input__input:focus {
+    border-color: #FBFBFB;
+    outline: 0;
+    box-shadow: 0 0 5px 0.2rem rgba(127, 89, 232, 0.25);
+} */
+
+.react-tag-input__tag {
+	padding: 8px 10px;
+	background: #f2eeff;
+}
+
+.react-tag-input__tag__content {
+	color: #7f59e8;
+	font-size: 16px;
+	letter-spacing: -0.04em;
+    font-weight: 500;
+    padding: 0;
+}
+
+.react-tag-input__tag__remove {
+	background: none;
+}
+
+react-tag-input__tag__remove:after {
+    background: #230D60;
+}
