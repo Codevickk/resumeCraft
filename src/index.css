@@ -6,14 +6,20 @@
 
 @font-face {
 	font-family: 'Gilroy';
-	src: url('./fonts/Gilroy-Bold.ttf') format('truetype');
-	font-weight: bold;
+	src: url('./fonts/Gilroy-Medium.ttf') format('truetype');
+	font-weight: 500;
 }
 
 @font-face {
 	font-family: 'Gilroy';
-	src: url('./fonts/Gilroy-Medium.ttf') format('truetype');
-	font-weight: 500;
+	src: url('./fonts/Gilroy-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('./fonts/Gilroy-Bold.ttf') format('truetype');
+	font-weight: bold;
 }
 
 * {
