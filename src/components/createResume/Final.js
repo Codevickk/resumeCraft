@@ -87,7 +87,7 @@ const Final = (props) => {
 					</ToolsContainer>
 
 					<ResumeWrapper>
-						<PDFExport fileName="_____.pdf" title="" subject="" keywords="" ref={(r) => (resume = r)}>
+						<PDFExport fileName="resume.pdf" title="" subject="" keywords="" ref={(r) => (resume = r)}>
 							<Resume resume={props.state} />
 						</PDFExport>
 					</ResumeWrapper>

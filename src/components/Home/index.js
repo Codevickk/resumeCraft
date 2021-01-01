@@ -9,7 +9,7 @@ import { FiPlus } from 'react-icons/fi';
 
 const ContentWrapper = styled.div`text-align: center;`;
 
-const AddLink = styled(Link) `
+const AddLink = styled(Link)`
 	background : ${(props) => props.theme.primary.normal};
 	display: inline-block;
 	padding: 10px 15px;
@@ -22,7 +22,7 @@ const AddLink = styled(Link) `
 	transition: background linear .3s;
 
 	&:hover {
-		background: ${props => props.theme.primary.light}
+		background: ${(props) => props.theme.primary.light}
 	}
 `;
 
@@ -36,7 +36,8 @@ const Home = () => {
 				<ContentWrapper>
 					<img src={documentIcon} alt="document" style={{ marginTop: '60px' }} />
 					<P style={{ marginTop: '40px', maxWidth: '480px', marginLeft: 'auto', marginRight: 'auto' }}>
-						You haven’t created any resume yet, you can create one by clicking the button below.
+						This is a tool that helps you to create a resume that you can download in PDF format, you can
+						create one by clicking the button below.
 					</P>
 					<AddLink to="/create">
 						<FiPlus />
