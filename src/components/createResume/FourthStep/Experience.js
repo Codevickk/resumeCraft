@@ -1,12 +1,8 @@
 import styled from 'styled-components';
-import { Fragment, useState } from 'react';
+import { Fragment } from 'react';
 import { P } from '../../Text';
-import { Button } from '../../Button';
-
-import { RiEdit2Line } from 'react-icons/ri';
 import { BsTrash } from 'react-icons/bs';
 
-import ExperienceModal from './ExperienceModal';
 import { getYear } from '../../../utils/date';
 
 const ExperienceContainer = styled.div`
