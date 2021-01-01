@@ -37,7 +37,7 @@ const Home = () => {
 					<img src={documentIcon} alt="document" style={{ marginTop: '60px' }} />
 					<P style={{ marginTop: '40px', maxWidth: '480px', marginLeft: 'auto', marginRight: 'auto' }}>
 						This is a tool that helps you to create a resume that you can download in PDF format, you can
-						create one by clicking the button below.
+						get started by clicking the button below.
 					</P>
 					<AddLink to="/create">
 						<FiPlus />
