@@ -17,23 +17,21 @@ export const InnerWrapper = styled.div`
 	margin-left: auto;
 	box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.05);
 	border-radius: 5px;
-	// min-height: 560px;
 	width: 100%;
-	padding: 35px 20px;
+	padding: 55px 20px;
 	position: relative;
 
 	@media only screen and ${breakpoints.device.tablet} {
 		padding: 60px 40px;
 		width: 600px;
-	
 	}
 	@media only screen and ${breakpoints.device.laptop} {
 		padding: 60px 50px;
-		width: ${props => {
-			if(props.size ==="medium") {
-				return "754px";
+		width: ${(props) => {
+			if (props.size === 'medium') {
+				return '754px';
 			}
-			return "946px"
-		}}
+			return '946px';
+		}};
 	}
 `;
