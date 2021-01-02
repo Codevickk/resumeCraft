@@ -44,8 +44,9 @@ const ActionsContainer = styled.div``;
 
 const ResumeWrapper = styled.div`
 	margin-top: 30px;
-	border: 2px solid #f2eeff;
+	// border: 2px solid #f2eeff;
 	overflow-x: auto;
+	background: ${props => props.theme.gray.lightest}
 `;
 
 const Final = (props) => {

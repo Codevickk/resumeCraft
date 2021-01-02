@@ -12,7 +12,8 @@ const ResumeContainer = styled.div`
 	margin-right: auto;
 	width: 595px;
 	padding: 60px 0px;
-	background: ${(props) => props.theme.gray.lightest};
+	border: 2px solid #f2eeff;
+	background: white
 `;
 
 const InnerContainer = styled.div`
