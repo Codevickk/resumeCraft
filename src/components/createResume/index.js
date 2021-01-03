@@ -4,9 +4,11 @@ import FirstStep from './FirstStep';
 import SecondStep from './SecondStep';
 import ThirdStep from './ThirdStep';
 import FourthStep from './FourthStep';
+import FifthStep from './FifthStep';
 
 import Final from './Final';
-import FifthStep from './FifthStep';
+
+import Layout from './Layout';
 
 const Index = () => {
 	return (
@@ -18,6 +20,7 @@ const Index = () => {
 			<Step title="Skills" component={FifthStep} />
 
 			<Step title="Preview your resume" component={Final} />
+			<Step title="Testing" component={Layout} />
 		</Steps>
 	);
 };

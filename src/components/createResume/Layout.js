@@ -9,7 +9,7 @@ import { IoCloseOutline } from 'react-icons/io5';
 
 const Body = styled.div`margin-top: 50px;`;
 
-const FirstStep = (props) => {
+const Layout = (props) => {
 	const onBTNClick = (e) => {
 		e.preventDefault();
 		props.next();
@@ -76,4 +76,4 @@ const FirstStep = (props) => {
 	);
 };
 
-export default FirstStep;
+export default Layout;

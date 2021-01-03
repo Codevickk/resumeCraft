@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import breakpoints from '../breakpoints';
 
 export const H1 = styled.h1`
 	font-size: 26px;
@@ -15,11 +16,15 @@ export const H2 = styled.h2`
 `;
 
 export const P = styled.p`
-	font-size: 18px;
 	color: ${(props) => props.theme.gray.normal};
 	font-weight: 400;
 	letter-spacing: -0.5px;
-	line-height: 24.7px;
+	line-height: 26px;
+	font-size: 16px;
+
+	@media only screen and ${breakpoints.device.tablet} {
+		font-size: 18px;
+	}
 `;
 
 // text to Show the current step in creating a resume
