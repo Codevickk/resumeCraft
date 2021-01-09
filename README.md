@@ -4,6 +4,9 @@ An application that helps users to create resumes by simply supplying informatio
 ## Demo
 A demo of this application exists already, you can try it out [here](https://resume-craft.netlify.app "Link to resumeCraft")
 
+## Design
+You can check out the UI/UX design of resumeCraft [here](https://www.figma.com/proto/vFGND3GUsujEE84QJRRNIL/resumeCraft?node-id=7%3A4&viewport=-4723%2C241%2C0.3296487629413605&scaling=scale-down)
+
 ## Technology
 This application is built using ReactJS.
 
@@ -24,3 +27,4 @@ git checkout -b my-feature-branch
 git push --set-upstream origin my-feature-branch.
 ```
 * Visit GitHub and make your pull request.
+
