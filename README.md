@@ -19,7 +19,7 @@ git clone git@github.com:<yourname>/resumeCraft.git
 ```
 git checkout -b my-feature-branch
 ```
-*Make your changes, lint, then push to to GitHub 
+* Make your changes, lint, then push to to GitHub 
 ```
 git push --set-upstream origin my-feature-branch.
 ```
