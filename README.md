@@ -24,7 +24,7 @@ git checkout -b my-feature-branch
 ```
 * Make your changes, lint, then push to to GitHub 
 ```
-git push --set-upstream origin my-feature-branch.
+git push -u origin my-feature-branch.
 ```
 * Visit GitHub and make your pull request.
 
