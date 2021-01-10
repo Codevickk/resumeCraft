@@ -14,12 +14,13 @@ const AddLink = styled(Link)`
 	display: inline-block;
 	padding: 10px 15px;
 	font-size: 30px;
-	border-radius: 50%;
+	border-radius: 5px;
 	border: none;
 	color: white;
 	margin-top: 40px;
 	box-shadow: 0px 8px 40px rgba(95, 48, 226, 0.1);
 	transition: background linear .3s;
+	text-decoration: none;
 
 	&:hover {
 		background: ${(props) => props.theme.primary.light}
@@ -40,7 +41,7 @@ const Home = () => {
 						get started by clicking the button below.
 					</P>
 					<AddLink to="/create">
-						<FiPlus />
+						Get started
 					</AddLink>
 				</ContentWrapper>
 			</InnerWrapper>
